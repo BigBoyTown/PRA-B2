@@ -33,6 +33,7 @@
             this.labelWachttijd = new System.Windows.Forms.Label();
             this.labelWachttijdMelding = new System.Windows.Forms.Label();
             this.AttractieLogo = new System.Windows.Forms.PictureBox();
+            this.labelKar3 = new System.Windows.Forms.Label();
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
@@ -79,6 +80,16 @@
             this.AttractieLogo.TabStop = false;
             this.AttractieLogo.Click += new System.EventHandler(this.AttractieLogo_Click);
             // 
+            // labelKar3
+            // 
+            this.labelKar3.AutoSize = true;
+            this.labelKar3.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.labelKar3.Location = new System.Drawing.Point(29, 106);
+            this.labelKar3.Name = "labelKar3";
+            this.labelKar3.Size = new System.Drawing.Size(57, 18);
+            this.labelKar3.TabIndex = 7;
+            this.labelKar3.Text = "Kar 3: ...";
+            // 
             // labelKar2
             // 
             this.labelKar2.AutoSize = true;
@@ -107,6 +118,7 @@
             this.ClientSize = new System.Drawing.Size(279, 227);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
+            this.Controls.Add(this.labelKar3);
             this.Controls.Add(this.AttractieLogo);
             this.Controls.Add(this.labelWachttijdMelding);
             this.Controls.Add(this.labelWachttijd);
@@ -126,6 +138,7 @@
         private System.Windows.Forms.Label labelWachttijd;
         private System.Windows.Forms.Label labelWachttijdMelding;
         private System.Windows.Forms.PictureBox AttractieLogo;
+        private System.Windows.Forms.Label labelKar3;
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
     }
