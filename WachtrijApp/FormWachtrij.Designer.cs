@@ -36,19 +36,23 @@
             this.labelKar3 = new System.Windows.Forms.Label();
             this.labelKar2 = new System.Windows.Forms.Label();
             this.labelKar1 = new System.Windows.Forms.Label();
+            this.btnEasterEgg = new System.Windows.Forms.Button();
+            this.pbxEasterEgg1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxEasterEgg1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelTitel
             // 
             this.labelTitel.AutoSize = true;
             this.labelTitel.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitel.Location = new System.Drawing.Point(35, 22);
+            this.labelTitel.Location = new System.Drawing.Point(36, 33);
             this.labelTitel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTitel.Name = "labelTitel";
             this.labelTitel.Size = new System.Drawing.Size(191, 40);
             this.labelTitel.TabIndex = 0;
             this.labelTitel.Text = "Debug Hero";
+            this.labelTitel.Click += new System.EventHandler(this.labelTitel_Click);
             // 
             // labelWachttijd
             // 
@@ -77,7 +81,7 @@
             this.AttractieLogo.ErrorImage = null;
             this.AttractieLogo.Image = ((System.Drawing.Image)(resources.GetObject("AttractieLogo.Image")));
             this.AttractieLogo.Location = new System.Drawing.Point(228, 107);
-            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AttractieLogo.Margin = new System.Windows.Forms.Padding(4);
             this.AttractieLogo.Name = "AttractieLogo";
             this.AttractieLogo.Size = new System.Drawing.Size(147, 174);
             this.AttractieLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -118,12 +122,41 @@
             this.labelKar1.TabIndex = 9;
             this.labelKar1.Text = "Kar 1: ...";
             // 
+            // btnEasterEgg
+            // 
+            this.btnEasterEgg.BackColor = System.Drawing.Color.Transparent;
+            this.btnEasterEgg.FlatAppearance.BorderSize = 0;
+            this.btnEasterEgg.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnEasterEgg.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnEasterEgg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEasterEgg.ForeColor = System.Drawing.Color.Transparent;
+            this.btnEasterEgg.Location = new System.Drawing.Point(1, 253);
+            this.btnEasterEgg.Name = "btnEasterEgg";
+            this.btnEasterEgg.Size = new System.Drawing.Size(28, 28);
+            this.btnEasterEgg.TabIndex = 10;
+            this.btnEasterEgg.TabStop = false;
+            this.btnEasterEgg.UseVisualStyleBackColor = false;
+            this.btnEasterEgg.Click += new System.EventHandler(this.btnEasterEgg_Click);
+            // 
+            // pbxEasterEgg1
+            // 
+            this.pbxEasterEgg1.Image = ((System.Drawing.Image)(resources.GetObject("pbxEasterEgg1.Image")));
+            this.pbxEasterEgg1.Location = new System.Drawing.Point(228, 6);
+            this.pbxEasterEgg1.Name = "pbxEasterEgg1";
+            this.pbxEasterEgg1.Size = new System.Drawing.Size(132, 94);
+            this.pbxEasterEgg1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxEasterEgg1.TabIndex = 11;
+            this.pbxEasterEgg1.TabStop = false;
+            this.pbxEasterEgg1.Visible = false;
+            // 
             // FormWachtrij
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(372, 279);
+            this.Controls.Add(this.btnEasterEgg);
+            this.Controls.Add(this.pbxEasterEgg1);
             this.Controls.Add(this.labelKar1);
             this.Controls.Add(this.labelKar2);
             this.Controls.Add(this.labelKar3);
@@ -132,10 +165,11 @@
             this.Controls.Add(this.labelWachttijd);
             this.Controls.Add(this.labelTitel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormWachtrij";
             this.Text = "Debug Hero";
             ((System.ComponentModel.ISupportInitialize)(this.AttractieLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxEasterEgg1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,6 +184,8 @@
         private System.Windows.Forms.Label labelKar3;
         private System.Windows.Forms.Label labelKar2;
         private System.Windows.Forms.Label labelKar1;
+        private System.Windows.Forms.Button btnEasterEgg;
+        private System.Windows.Forms.PictureBox pbxEasterEgg1;
     }
 }
 

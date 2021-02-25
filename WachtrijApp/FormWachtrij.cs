@@ -152,5 +152,15 @@ namespace WachtrijApp
 
             return "";
         }
+
+        private void labelTitel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEasterEgg_Click(object sender, EventArgs e)
+        {
+            pbxEasterEgg1.Visible = true;
+        }
     }
 }
