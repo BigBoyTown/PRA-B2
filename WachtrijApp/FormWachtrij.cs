@@ -97,6 +97,34 @@ namespace WachtrijApp
             }
             Wachttijd += 4;
 
+            string node09 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor09").InnerText;
+            if (node09 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 4;
+
+            string node10 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor10").InnerText;
+            if (node10 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 4;
+
+            string node11 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor11").InnerText;
+            if (node11 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 4;
+
+            string node12 = doc.DocumentElement.SelectSingleNode("/Sensoren/Sensor12").InnerText;
+            if (node12 == "False")
+            {
+                return Wachttijd;
+            }
+            Wachttijd += 4;
+
             return Wachttijd;
         }
 

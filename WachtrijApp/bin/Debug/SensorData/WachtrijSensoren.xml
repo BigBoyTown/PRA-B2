@@ -5,9 +5,11 @@
   <Sensor03>True</Sensor03>
   <Sensor04>True</Sensor04>
   <Sensor05>True</Sensor05>
-  <Sensor06>False</Sensor06>
-  <Sensor07>False</Sensor07>
-  <Sensor08>False</Sensor08>
-  <Sensor09>False</Sensor09>
-  <Sensor10>False</Sensor10>
+  <Sensor06>True</Sensor06>
+  <Sensor07>True</Sensor07>
+  <Sensor08>True</Sensor08>
+  <Sensor09>True</Sensor09>
+  <Sensor10>True</Sensor10>
+  <Sensor11>True</Sensor11>
+  <Sensor12>True</Sensor12>
 </Sensoren>
