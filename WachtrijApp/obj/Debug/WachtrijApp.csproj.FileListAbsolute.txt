@@ -22,3 +22,15 @@ C:\xampp\htdocs\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource
 C:\xampp\htdocs\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.exe
 C:\xampp\htdocs\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.pdb
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\bin\Debug\SensorData\AttractieStatus.xml
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\bin\Debug\SensorData\WachtrijSensoren.xml
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\bin\Debug\WachtrijApp.exe.config
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\bin\Debug\WachtrijApp.exe
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\bin\Debug\WachtrijApp.pdb
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.csprojAssemblyReference.cache
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.FormWachtrij.resources
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.Properties.Resources.resources
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.GenerateResource.cache
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.csproj.CoreCompileInputs.cache
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.exe
+C:\Users\jarmo\Documents\School\Softwaredeveloper\Periode 2\Praktijk\Project 2\PRA-B2\WachtrijApp\obj\Debug\WachtrijApp.pdb
